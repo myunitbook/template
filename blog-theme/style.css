@@ -1,0 +1,45 @@
+*{ margin: 0; padding: 0;}
+.bg1{ background-color: aqua;}
+.bg2{ background-color: blueviolet;}
+.fl{ float: left;}
+.fr{ float: right;}
+.new{ float: left; margin-left: 1%;}
+.clr{ clear: both;}
+/*header Section  */
+.head{ background-color: royalblue; margin-bottom: 1vh; }
+.head h1{ color: white; padding:2% 5% ; background-color: gold; }
+        
+.nav{ background-color: tomato; padding: 0.50%;}
+.nav ul{ width: 90%; margin: auto;}
+.nav ul li{  display: inline;}
+.nav ul li a{ color: white; text-decoration: none; margin-right: 2%; }
+
+.banner{
+    margin-top: 1vh;
+    height:82vh; 
+    /* background-color: teal; */
+    background-image: url(image/workspace-unitbook.jpg);
+    background-size: 100% 80vh;
+}
+.banner h1{ text-align: center; color: white; padding: 4%;}
+.banner ul{ width: 96%; margin: auto; background-color: rgba(0,0,0,0.50);}
+.banner ul li{ 
+    width: 23%; 
+    height: 25vh; 
+    /* background-color: gold;  */
+    background-image: url(course-7.jpg);
+    background-size: 100% 25vh;
+    background-repeat: no-repeat;
+    float: left; 
+    margin:5% 1%; 
+    list-style: none; 
+    text-align: center; 
+    line-height: 25vh;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main{ width: 80%; margin:1vh auto;}
+.card{ width: 49%; height: 80vh;}
